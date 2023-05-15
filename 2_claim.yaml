@@ -1,7 +1,7 @@
 apiVersion: storage.acw.alvsanand.github.io/v1alpha1
 kind: XDObjectStorage
 metadata:
-    name: some-bucket-2
+    name: some-bucket-3
     namespace: default
     annotations:
         argocd.argoproj.io/sync-wave: "2"
@@ -11,4 +11,4 @@ spec:
         matchLabels:
             provider: aws
     parameters:
-        storageName: some-bucket-2
+        storageName: some-bucket-3
